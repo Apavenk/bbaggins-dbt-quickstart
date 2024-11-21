@@ -1,4 +1,7 @@
 name: 'jaffle_shop'
 models:
   jaffle_shop:
+    marts:
     +materialized: table
+    staging:
+     materialized: view
